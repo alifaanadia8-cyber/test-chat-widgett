@@ -1,0 +1,97 @@
+body {
+  background: #222;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.container {
+  width: 700px; /* memanjang tapi nggak terlalu lebar */
+}
+
+/* ===== Box Pesan ===== */
+.box {
+  position: relative;
+  border-radius: 30px;       /* bulat */
+  padding: 10px 20px;
+  margin: 12px 0;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+  min-height: 40px;          /* kecil tipis */
+  display: flex;
+  align-items: center;       /* teks rata tengah vertikal */
+  font-size: 13px;           /* kecil */
+  max-width: 620px;          /* memanjang */
+}
+
+.box-white {
+  background: #fff4e6; /* coklat putih */
+}
+
+.box-orange {
+  background: #f8c98a; /* coklat orange */
+}
+
+/* ===== Isi box ===== */
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  background: #7b4a2b;
+  color: white;
+  font-weight: bold;
+  padding: 3px 10px;
+  border-radius: 12px;
+  position: relative;
+  font-size: 12px;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.title img.pita {
+  width: 20px;
+  position: absolute;
+  right: -25px;
+  top: -6px;
+}
+
+p {
+  margin: 0;
+  color: #333;
+  font-size: 12px;
+}
+
+/* ===== Dekorasi ===== */
+.decor.bunga {
+  position: absolute;
+  width: 30px;
+  top: -15px;
+  left: -15px;
+}
+
+.decor.daun {
+  position: absolute;
+  width: 35px;
+  right: -18px;
+  bottom: -6px;
+}
+
+/* ===== Extra icon + teks bawah ===== */
+.extra {
+  text-align: center;
+  margin: 8px 0 20px;
+}
+
+.extra img {
+  width: 30px;
+  vertical-align: middle;
+}
+
+.extra span {
+  color: #ffd700;
+  font-weight: bold;
+  margin: 0 8px;
+  font-size: 14px;
+}
